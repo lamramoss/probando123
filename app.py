@@ -7,7 +7,7 @@ import numpy as np
 
 # Dataset 'Processing'
 
-df_emissions = pd.read_csv('emission_full.csv')
+df_emissions = pd.read_csv('/Users/lauraramos/Documents/probando123/emission_full.csv')
 
 df_emission_0 = df_emissions.loc[df_emissions['year']==2000]
 
