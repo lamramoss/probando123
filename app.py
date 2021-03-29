@@ -56,8 +56,8 @@ app.layout = html.Div(children=[
     html.Div(children='''
         Example of html Container
     '''),
-    webbrowser.open("http://youtube.com", new=1),
-
+    html.Iframe(src="https://public.tableau.com/views/GoogleSearchTrendsMostSuccessfulSongsof2020_16167803913520/Dashboard2?:language=en&:display_count=y&:origin=viz_share_link",
+                style={"height": "1067px", "width": "100%"})
     dcc.Graph(
         id='example-graph',
         figure=fig
