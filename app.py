@@ -56,8 +56,8 @@ app.layout = html.Div(children=[
     html.Div(children='''
         Example of html Container
     '''),
-    html.Div('webbrowser.open("http://youtube.com", new=1)'),
-    
+    webbrowser.open("http://youtube.com", new=1),
+
     dcc.Graph(
         id='example-graph',
         figure=fig
