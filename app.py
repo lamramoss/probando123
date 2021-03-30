@@ -56,7 +56,7 @@ app.layout = html.Div(children=[
     html.Div(children='''
         Example of html Container
     '''),
-
+    
     dcc.Graph(
         id='example-graph',
         figure=fig
